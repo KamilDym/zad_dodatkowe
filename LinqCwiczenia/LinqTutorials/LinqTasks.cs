@@ -332,8 +332,10 @@ namespace LinqTutorials
         /// </summary>
         public static int Task13(int[] arr)
         {
-            int result = 0;
-            //result=
+            int result = arr
+                .GroupBy(n => n)
+                .Single(g => g.Count() % 2 == 1)
+                .First();
             return result;
         }
 
