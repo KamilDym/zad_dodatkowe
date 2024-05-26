@@ -74,22 +74,16 @@ namespace LinqTutorials
                 Console.WriteLine(t);
             }
             
-            // Console.WriteLine("\nt12--------------------");
             // var t12 = LinqTasks.Task12();
-            // foreach (var t in t12)
-            // {
-            //     Console.WriteLine(t);
-            // }
             
             Console.WriteLine("\nt13--------------------");
             int[] t13_arg = {1,1,1,1,1,1,10,1,1,1,1};
             var t13 = LinqTasks.Task13(t13_arg);
             Console.WriteLine(t13);
             
-            
-            var t14 = LinqTasks.Task14();
-            var t15 = LinqTasks.Task15();
-            var t16 = LinqTasks.Task16();
+            // var t14 = LinqTasks.Task14();
+            // var t15 = LinqTasks.Task15();
+            // var t16 = LinqTasks.Task16();
             
         }
     }
